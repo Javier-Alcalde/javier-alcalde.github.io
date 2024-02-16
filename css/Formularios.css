@@ -1,5 +1,47 @@
+body{
+    margin: 0;
+}
+
 .Titulo{
-    background-color: red;
+    background-color: green;
     height: 70px;
     text-align: center;
+    width: 25cm;
+    margin: auto;
+    margin-top: 85px;
+    align-content: center;
+}
+
+.Titulo p {
+    color: white;
+    font-size: 40px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    padding-top: 10px;
+}
+
+.form{
+    background-color: bisque;
+    width: 25cm;
+    height: 300px;
+    margin: auto;
+    align-content: center;
+    border: solid rgb(196, 189, 100);
+    margin-top: 20px;
+    border-radius: 20px;
+}
+
+.form h2 {
+    text-align: center;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+.form form{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    height: 300px;
+}
+
+.foto{
+    height: 100px;
+    width: 100px;
+    position: absolute;
+    background-color: black;
 }
