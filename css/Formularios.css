@@ -22,26 +22,55 @@ body{
 .form{
     background-color: bisque;
     width: 25cm;
-    height: 300px;
+    height: 870px;
     margin: auto;
     align-content: center;
     border: solid rgb(196, 189, 100);
     margin-top: 20px;
     border-radius: 20px;
+    position: relative;
 }
 
-.form h2 {
-    text-align: center;
-    font-family: Verdana, Geneva, Tahoma, sans-serif;
-}
-.form form{
+form {
+    padding: 40px;
+    border-radius: 8px;
     font-family: Verdana, Geneva, Tahoma, sans-serif;
     height: 300px;
 }
 
-.foto{
-    height: 100px;
-    width: 100px;
-    position: absolute;
-    background-color: black;
+label {
+    display: block;
+    margin-bottom: 10px;
 }
+
+input {
+    width: 100%;
+    padding: 8px;
+    margin-bottom: 15px;
+    box-sizing: border-box;
+}
+
+.form h2 {
+    text-align: center;
+    font-family:'Arial';
+    font-size: 40px;
+    text-decoration: underline;
+}
+
+.foto{
+    height: 130px;
+    width: 130px;
+    position: absolute;
+    top: 5px;
+    right: 5px;
+    border-radius: 20px;
+}
+
+.foto img{
+    width: auto;
+    height: auto;
+    max-width: 100%;
+    max-height: 100%;
+    border-radius: 20px;
+}
+
