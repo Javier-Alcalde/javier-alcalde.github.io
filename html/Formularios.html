@@ -4,8 +4,10 @@
     <meta charset='utf-8'>
     <title>Quiere ser Voluntario</title>
     <meta name='viewport' content='width=device-width, initial-scale=1'>
-    <link rel='stylesheet' type='text/css' media='screen' href='../css/Formularios.css'>
-    <script src='main.js'></script>
+    <link rel='stylesheet' type='text/css' media='screen' href='/css/Formularios.css'>
+    <script src='/js/import.js'></script>
+    <script src='/js/contador.js'></script>
+
 </head>
 <body>
     <div class="Titulo">
@@ -28,7 +30,7 @@
                 <input type="number" id="edad" name="edad" required><br><br>
 
                 <label for="experiencia">Experiencia previa (opcional):</label>
-                <textarea id="experiencia" name="experiencia" rows="4"></textarea><br><br>
+                <textarea id="experiencia" name="experiencia" rows="4" cols="115"></textarea><br><br>
 
                 <label for="disponibilidad">Disponibilidad:</label>
                 <input type="text" id="disponibilidad" name="disponibilidad" required>
@@ -42,7 +44,9 @@
                 <input type="submit" value="Enviar">
             </form>
     </div>
-
+    
+    <div w3-include-html="footer.html"></div>
+    
     <script src='js/import.js'></script>
     <script>
         includeHTML();
