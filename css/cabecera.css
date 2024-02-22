@@ -5,10 +5,26 @@
     font-family: sans-serif;
 }
 
+.cabecera {
+    font-family: Arial, sans-serif;
+    background-color: #191919;
+    font-size: 20px;
+}
+
+.cabecera a {
+    padding-inline: 30px;
+    padding-block: 20px;
+    display: inline-block;
+}
+
+.menu {
+    width: 80%;
+    margin: auto;
+    position: sticky;
+    top: 0;
+}
+
 body {
-    display: flex;
-    justify-content: center;
-    align-items: center;
     min-height: 100vh;
     background-color: bisque;
 }
