@@ -30,16 +30,13 @@
     cursor: pointer;
     text-decoration: none;
     color: white;
+    padding-inline: 30px;
+    padding-block: 20px;
+    display: inline-block;
 }
 
 .cabecera a:hover {
     background-color: #00af3b;
-}
-
-.cabecera a {
-    padding-inline: 30px;
-    padding-block: 20px;
-    display: inline-block;
 }
 
 .dropdown {
