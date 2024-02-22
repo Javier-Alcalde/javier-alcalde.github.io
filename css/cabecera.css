@@ -11,6 +11,12 @@
     font-size: 20px;
 }
 
+.cabecera a {
+    padding-inline: 30px;
+    padding-block: 20px;
+    display: inline-block;
+}
+
 .menu {
     width: 80%;
     margin: auto;
