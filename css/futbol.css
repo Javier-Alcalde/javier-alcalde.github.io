@@ -36,3 +36,32 @@ p {
     height: 500px;
     margin-top: 10px;
 }
+
+
+.Equipos h3 {
+    text-align: center;
+    margin-top: 30px;
+    color: rgb(122, 133, 31);}
+
+    .Equipos   ol {
+    list-style-type: none;
+    padding: 0;
+  }
+  .Equipos li {
+    padding: 10px 0;
+    border-bottom: 1px solid;
+    border-color: #575757;
+    font-size: 18px;
+    color: #000000;
+    counter-increment: item;
+  }
+ .Equipos li:before {
+    content: counter(item) ".";
+    margin-right: 10px;
+    font-weight: bold;}
+
+.campeones li{
+    margin-bottom: 10px;
+}
+
+
