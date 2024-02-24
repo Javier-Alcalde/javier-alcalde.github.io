@@ -1,0 +1,27 @@
+.carousel-inner {
+    position: relative;
+    width: 1500px;
+    overflow: hidden;
+    margin-left: 230px ;
+    height: 100%;
+}
+
+.carousel-caption{
+    position: absolute;
+    right: 15%;
+    bottom: 35px;
+    left: 15%;
+    padding-top: 1.25rem;
+    padding-bottom: 1.25rem;
+    color:black;
+    text-align: center;
+    background-color: gray;
+    opacity: 85%;
+}
+
+.carousel-control-next {
+    margin-right: 250px;
+}
+.carousel-control-prev {
+    margin-left: 280px;
+}
