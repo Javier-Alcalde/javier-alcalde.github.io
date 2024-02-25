@@ -1,0 +1,148 @@
+body { margin: 0; text-align: justify; background-color: #efefef; }
+
+/*************************/
+/* DISTRIBUCIÓN CON GRID */
+/*************************/
+.cuerpo {
+    margin-top: 20px;
+    display: grid;
+    grid-template-columns: 220px auto 1fr 50px;
+    grid-template-rows: auto auto auto auto;
+    grid-template-areas:    "panel_navegacion articulo desc_art ."
+                            ". art_rel art_rel ."
+                            ". resumen resumen ."
+                            "pie_pagina pie_pagina pie_pagina pie_pagina";
+    column-gap: 20px;
+    row-gap: 20px;
+}
+
+.panel_navegacion { grid-area: panel_navegacion; }
+.articulo { grid-area: articulo; justify-self: center; }
+.descripcion_articulo { grid-area: desc_art; }
+.articulos_relacionados { grid-area: art_rel; }
+.resumen { grid-area: resumen; }
+.pie_pagina { grid-area: pie_pagina; }
+
+
+/***********************/
+/* PANEL DE NAVEGACIÓN */
+/***********************/
+.panel_navegacion div {
+    margin-left: 20px;
+    background-color: white;
+    border: 1px solid #191919;
+}
+
+.panel_navegacion h3 {
+    background-color: #191919;
+    color: white;
+    margin: 0;
+    text-align: center;
+    font-size: 18px;
+    padding-block: 10px;
+}
+
+/* IMPORTANTE: el símbolo ">" implica un elemento que esté inmediatamente siguiente
+               En este caso lo aplico para obtener el primer ul dentro del panel de navegación
+*/
+.panel_navegacion div > ul {
+    padding-left: 10px;
+    margin-block: 10px;
+}
+
+.panel_navegacion ul li {
+    list-style-type: none;
+    font-weight: normal;
+}
+
+.panel_navegacion div > ul > li { font-weight: bold; }
+.panel_navegacion ul a {
+    text-decoration: none;
+    color: black;
+}
+
+
+
+
+
+/*****************/
+/* PANEL CENTRAL */
+/*****************/
+.articulo img { max-height: 348px; border-radius: 10px; }
+
+
+/**************************/
+/* ARTICULOS RELACIONADOS */
+/**************************/
+.articulos_relacionados { margin-inline: auto; margin-bottom: 10px; }
+.articulos_relacionados h3 { text-align: center; font-size: 30px; margin-top: 0; }
+.articulo_relacionado {
+    width: 200px;
+    height: 300px;
+    display: inline-block;
+    margin-inline: 10px;
+    position: relative;
+}
+.art_rel_1 { background-image: url(../images/art_relacionado_1.jpg); background-size: cover; }
+.art_rel_2 { background-image: url(../images/art_relacionado_2.jpg); background-size: cover; }
+.art_rel_3 { background-image: url(../images/art_relacionado_3.jpg); background-size: cover; }
+
+.articulo_relacionado h4 { text-align: center; }
+.articulo_relacionado p { padding-inline: 20px; }
+
+.desc_art_rel {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    overflow: hidden;
+    background-color: white;
+    transform: translateX(50%) scaleX(0);
+    transition: .5s ease;
+}
+
+.articulo_relacionado:hover .desc_art_rel {
+    right: 0;
+    transform: translateX(0) scaleX(1);
+}
+
+
+
+
+/***********/
+/* RESUMEN */
+/***********/
+.resumen {
+    background-color: white;
+    box-shadow: 0 0 5px 5px white;
+    padding-inline: 20px;
+}
+.resumen h3 { font-size: 30px; text-align: center;}
+.resumen span { color: red; }
+.resumen i { font-size: 30px; color: red; position: relative; top: 5px}
+
+
+/**********/
+/* FOOTER */
+/**********/
+.pie_pagina { background-color: #191919; color: white; padding: 20px; }
+.texto_pie {
+    display: inline-block;
+    width: 60%;
+    margin-left: 10%;
+    padding-right: 20px;
+}
+.texto_pie p { margin-top: 0;}
+
+.pie_enlaces_interes {
+    display: inline-block;
+    width: 20%;
+    border-left: 1px solid #efefef;
+    padding-left: 20px;
+}
+.pie_enlaces_interes h4 { margin: 0; font-size: 20px; }
+.pie_enlaces_interes ul { margin: 0; }
+
+
+
