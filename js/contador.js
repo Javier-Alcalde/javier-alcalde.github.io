@@ -1,4 +1,4 @@
- // Establecer la fecha de vencimiento
+ // Cuando termina el contador
 var fechaVencimiento = new Date('2024-07-26T18:59:59').getTime();
             
  // Actualizar la cuenta regresiva cada segundo
@@ -15,10 +15,10 @@ var x = setInterval(function() {
      var minutos = Math.floor((diferencia % (1000 * 60 * 60)) / (1000 * 60));
      var segundos = Math.floor((diferencia % (1000 * 60)) / 1000);
 
-     // Mostrar la cuenta regresiva en el elemento con id "cuenta-regresiva"
+     // Mostrar la cuenta regresiva en el elemento con su id
     document.getElementById('cuenta-regresiva').innerHTML = 'Quedan:   ' + dias + 'd ' + horas + 'h ' + minutos + 'm ' + segundos + 's ';
 
-     // Si la cuenta regresiva llega a cero, mostrar un mensaje
+     // Cuando la cuenta regresiva llega a cero,se muestra el mensaje
     if (diferencia < 0) {
         clearInterval(x);
         document.getElementById('cuenta-regresiva').innerHTML = '¡Empiezan los Juegos Olimpicos!';
