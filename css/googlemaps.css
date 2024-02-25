@@ -1,0 +1,45 @@
+.Titulo{
+    background-color:lightseagreen;
+    margin-top: 60px;
+    width: 500px;
+    height: 70px;
+    margin-bottom: 10px;
+}
+.Titulo p{
+    color: black;
+}
+
+.Lassedes{
+    position: relative;
+}
+
+iframe{
+    margin-top:50px ;
+    margin-left: 300px;
+    height: 650px;
+    width: 650px;
+    margin-bottom: 45px;
+    border-radius: 20px;
+}
+.Sedes{
+    background-color: lightblue;
+    height: 650px;
+    width: 650px;
+    margin-left:1050px;
+    margin-top:50px;
+    position: absolute;
+    opacity: 70%;
+    border-radius: 20px;
+}
+div h2{
+    text-align: center;
+    color: darkblue;
+    margin-top: 10px;
+    text-decoration:underline;
+}
+ul{
+    margin-left: 60px;
+}
+li a{
+    color: black;
+}
