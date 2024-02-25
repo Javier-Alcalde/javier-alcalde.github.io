@@ -37,13 +37,15 @@ body {
 
 .Noticias div > ul {
     padding-left: 10px;
-    margin-block: 10px;
+    margin-block: 20px;
 }
 
 .Noticias ul li {
     list-style-type: none;
     font-weight: normal;
 }
+
+
 
 
 .Judo_juegos {
