@@ -13,10 +13,8 @@
 
 <body>
     <div w3-include-html="cabecera.html"></div>
-    <header>
-        <h1>El Tenis</h1>
-    </header>
     <div id="historia">
+        <h3><b>Judo en los Juegos Olímpicos</b></h3>
         <h2>Historia del Tenis</h2>
         <p>
             La historia del tenis se remonta a tiempos antiguos, con raíces que se encuentran en diversos juegos de
@@ -57,18 +55,49 @@
 
     <div id="reglas">
         <h2>Reglas del Tenis</h2>
-        <p>El tenis en los Juegos Olímpicos sigue las reglas establecidas por la Federación Internacional de Tenis...
-        </p>
-        <!-- Incluye las reglas y cualquier otra información relevante -->
+        <div class="contenedor">
+            <p>El tenis es un deporte que se juega entre dos o cuatro jugadores, ya sea en partidos individuales o
+                dobles. El objetivo del juego es ganar puntos para obtener ventaja sobre el oponente y, finalmente,
+                ganar juegos, sets y el partido en general.
+
+                El juego comienza con un saque, que se realiza desde detrás de la línea de fondo y debe pasar por encima
+                de la red hacia el campo del oponente. El saque se realiza alternadamente entre los jugadores o equipos.
+                El servidor tiene dos oportunidades para lograr un saque válido. Si falla en ambas, se considera una
+                doble falta, y el punto va al oponente.
+
+                Una vez que la pelota está en juego, los jugadores se turnan golpeando la pelota sobre la red y dentro
+                de los límites de la cancha. La cancha está dividida en dos mitades por una red, y cada mitad se
+                subdivide en áreas de servicio y áreas de juego. Para ganar un punto, la pelota debe caer dentro de los
+                límites del campo contrario. Si la pelota toca la línea, se considera buena.
+
+                El juego se juega según el sistema de puntuación de 15-30-40, con la necesidad de ganar cuatro puntos
+                para ganar un juego. Si ambos jugadores o equipos alcanzan el puntaje de 40, se llama "iguales". A
+                partir de ahí, se requiere ganar dos puntos consecutivos para ganar el juego, y el primero en hacerlo
+                obtiene la ventaja. Si el jugador con ventaja gana el siguiente punto, gana el juego; si pierde el
+                punto, la ventaja se pierde, y se vuelve a la situación de "iguales".
+
+                El partido se juega en sets, y generalmente se requiere ganar seis juegos para ganar un set. Sin
+                embargo, si hay un empate a 5-5, se juega un juego adicional llamado "juego decisivo" (tiebreak), donde
+                se necesitan siete puntos para ganar, con una ventaja de al menos dos puntos.
+
+                El jugador o equipo que gane el número predeterminado de sets gana el partido. En los torneos de Grand
+                Slam, se juega al mejor de cinco sets para los hombres y al mejor de tres sets para las mujeres. Además,
+                hay reglas específicas sobre cambios de lado, descansos entre sets y otras consideraciones que varían
+                según los torneos y las asociaciones de tenis.
+            </p>
+            <div class="fotito">
+                <img src="/Fotos/tebis.gif" alt="">
+            </div>
+        </div>
     </div>
 
     <div id="medallas">
-        <h2>Medallas y Logros</h2>
-        <p>Los tenistas olímpicos destacados y las estadísticas de medallas se encuentran en esta sección...</p>
+        <h2>Medallistas</h2>
+        <p>Estos fueron los ultimos medallistas Olimpicos en Tokio 2020</p>
         <!-- Incluye información sobre medallas, récords, etc. -->
     </div>
     <div w3-include-html="footer.html"></div>
-    
+
     <script src='js/import.js'></script>
     <script>
         includeHTML();

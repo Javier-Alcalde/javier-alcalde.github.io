@@ -1,13 +1,13 @@
 body {
     font-family: Arial, sans-serif;
     margin: 20px;
+    background-color: bisque;
 }
-header {
-    text-align: center;
-    padding: 10px;
-    background-color: #f2f2f2;
+.contenedor{
+    display: flex;
 }
 
-section {
-    margin: 20px 0;
+.fotito img{
+    height: 300px;
+    width: 200px;
 }
