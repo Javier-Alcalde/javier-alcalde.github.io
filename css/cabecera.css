@@ -24,10 +24,6 @@
     top: 0;
 }
 
-body {
-    min-height: 100vh;
-    background-color: bisque;
-}
 
 div a {
     position: relative;
