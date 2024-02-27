@@ -1,0 +1,42 @@
+table {
+    border-collapse: collapse;
+    width: 100%;
+    
+}
+  
+  th, td {
+    border: 1px solid black;
+    padding: 8px;
+    text-align: left;
+    
+    
+  }
+
+  td:first-child {
+    width: 90px; 
+}
+  
+  th {
+    background-color: #ffffff;
+    color: rgb(0, 0, 0);
+  }
+
+  img{
+    width: 300px;
+    height: auto;
+  }
+    
+
+
+
+  .gold {
+    background-color: gold;
+}
+
+.silver {
+    background-color: silver;
+}
+
+.bronze {
+    background-color: #cd7f32;
+}
