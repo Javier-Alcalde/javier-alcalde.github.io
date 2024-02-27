@@ -1,28 +1,46 @@
 body {
     font-family: Arial, sans-serif;
     margin: 0px;
-    background-color: bisque;
+    background-color: bisque !important;
     min-height: 100vh;
+}
+.fondo{
+        background-color: white;
+        box-shadow: 0 0 5px 5px white;
+}
+h3{
+    text-align: center;
+    margin-top: 40px;
+    font-size: 30px;
 }
 
 .historia h2 {
     text-align: center;
     margin-bottom: 30px;
+    color: black;
 }
 
 .historia {
-    margin: 100px 100px 100px 100px;
-    text-align: justify;
+    margin: 70px 100px 100px 100px !important;
 }
 
 .reglas h2 {
     text-align: center;
     margin-bottom: 30px;
+    color: black;
 }
 
 .reglas {
-    margin: 100px 90px 100px 100px;
-    text-align: justify;
+    margin: 100px 100px 100px 100px;
+}
+.medallas h2 {
+    text-align: center;
+    margin-bottom: 30px;
+    color: black;
+}
+.medallas {
+    margin: 100px 100px 100px 100px;
+    text-align: center;
 }
 .contenedor{
     display:flex;
@@ -35,7 +53,7 @@ body {
     height: 190px;
     perspective: 1000px;
     margin: 5px;
-    border: solid black;
+    margin-bottom: 50px;
 }
 
 .flip-card {

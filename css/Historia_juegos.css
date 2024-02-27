@@ -1,12 +1,13 @@
-.carousel-inner {
-    position: relative;
-    width: 90%;
-    overflow: hidden;
-    margin-left: 230px ;
-    height: 100%;
-    margin: auto;
+body{
+    background-color: burlywood !important;
 }
 
+.carousel-inner {
+    width: 70% !important;
+    overflow: hidden;
+    align-items: center !important;
+    margin-left: 15%;
+}
 .carousel-caption{
     position: absolute;
     right: 15%;
@@ -18,11 +19,4 @@
     text-align: center;
     background-color: gray;
     opacity: 85%;
-}
-
-.carousel-control-next {
-    margin-right: 120px;
-}
-.carousel-control-prev {
-    margin-left: 120px;
 }

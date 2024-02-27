@@ -1,19 +1,19 @@
  // Cuando termina el contador
-var fechaVencimiento = new Date('2024-07-26T18:59:59').getTime();
+    const fechaVencimiento = new Date('2024-07-26T18:59:59').getTime();
             
  // Actualizar la cuenta regresiva cada segundo
-var x = setInterval(function() {
+    const x = setInterval(function() {
      // Obtener la fecha y hora actual
-    var ahora = new Date().getTime();
+    const ahora = new Date().getTime();
 
      // Calcular la diferencia entre la fecha de vencimiento y la fecha actual
-    var diferencia = fechaVencimiento - ahora;
+    const diferencia = fechaVencimiento - ahora;
 
      // Calcular días, horas, minutos y segundos
-     var dias = Math.floor(diferencia / (1000 * 60 * 60 * 24));
-     var horas = Math.floor((diferencia % (1000 * 60 * 60 * 24)) / (1000 * 60 * 60));
-     var minutos = Math.floor((diferencia % (1000 * 60 * 60)) / (1000 * 60));
-     var segundos = Math.floor((diferencia % (1000 * 60)) / 1000);
+     const dias = Math.floor(diferencia / (1000 * 60 * 60 * 24));
+     const horas = Math.floor((diferencia % (1000 * 60 * 60 * 24)) / (1000 * 60 * 60));
+     const minutos = Math.floor((diferencia % (1000 * 60 * 60)) / (1000 * 60));
+     const segundos = Math.floor((diferencia % (1000 * 60)) / 1000);
 
      // Mostrar la cuenta regresiva en el elemento con su id
     document.getElementById('cuenta-regresiva').innerHTML = 'Quedan:   ' + dias + 'd ' + horas + 'h ' + minutos + 'm ' + segundos + 's ';
