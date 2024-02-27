@@ -1,13 +1,31 @@
 body {
     font-family: Arial, sans-serif;
-    margin: 20px;
+    margin: 0px;
     background-color: bisque;
+    min-height: 100vh;
 }
 .contenedor{
     display: flex;
 }
 
 .fotito img{
-    height: 300px;
-    width: 200px;
+    height: 500px;
+    width: 400px;
+    margin: 0 50px 50px 50px;
+}
+.historia h2{
+    text-align: center;
+    margin-bottom: 30px;
+}
+.historia{
+    margin:100px 100px 100px 100px;
+    text-align: justify;
+}
+.reglas h2{
+    text-align: center;
+    margin-bottom: 30px;
+}
+.reglas{
+    margin:100px 100px 100px 100px;
+    text-align: justify;
 }
