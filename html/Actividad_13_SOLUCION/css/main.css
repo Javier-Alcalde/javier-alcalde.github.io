@@ -1,0 +1,44 @@
+body {
+    margin: 0;
+}
+
+.cuerpo {
+    width: 70%;
+    margin: auto;
+}
+
+.cuerpo ol li {
+    padding: 20px;
+    display: inline-block;
+}
+.cuerpo ol li div {
+    width: 100px;
+    height: 100px;
+    background-color: lightblue;
+    margin-top: 20px;
+    margin-inline: auto;
+}
+
+.transformaciones2D .div_1 { transform: translate(-40px, 20px); }
+.transformaciones2D .div_2 { transform: rotate(20deg); }
+.transformaciones2D .div_3 { transform: scale(0.5); }
+.transformaciones2D .div_4 { transform: skew(120deg); }
+
+.transformaciones3D .div_1 { transform: rotateX(50deg) }
+.transformaciones3D .div_2 { transform: rotateY(180deg) }
+.transformaciones3D .div_3 { transform: rotateZ(20deg) }
+.transformaciones3D .div_4 { transform: rotateY(180deg); backface-visibility: hidden; }
+
+.transiciones li { display: list-item!important; }
+
+.transiciones .div_1 { transition: width 0.5s; }
+.transiciones .div_1:hover { width: 400px; }
+
+.transiciones .div_2 { transition: transform 10s;}
+.transiciones .div_2:hover { transform: rotateZ(360deg); }
+
+.transiciones .div_3 { transition: transform 3s; backface-visibility: hidden;}
+.transiciones .div_3:hover { transform: rotateY(180deg); }
+
+.transiciones .div_4 { transition: transform 3s, width 1s; }
+.transiciones .div_4:hover { transform: rotateZ(180deg); width: 500px; }
