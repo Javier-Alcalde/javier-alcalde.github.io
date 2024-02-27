@@ -10,25 +10,23 @@
 }
 
 .Lassedes{
-    position: relative;
+    display: flex;
+    margin:20px 100px 100px 100px;
+    align-items: center;
 }
 
 iframe{
-    margin-top:50px ;
-    margin-left: 300px;
     height: 650px;
     width: 650px;
-    margin-bottom: 45px;
+    margin: 20px;
     border-radius: 20px;
 }
 .Sedes{
     background-color: lightblue;
     height: 650px;
     width: 650px;
-    margin-left:1050px;
-    margin-top:50px;
-    position: absolute;
     opacity: 70%;
+    margin: 30px;
     border-radius: 20px;
 }
 div h2{
@@ -38,7 +36,7 @@ div h2{
     text-decoration:underline;
 }
 ul{
-    margin-left: 60px;
+    margin-left: 10%;
 }
 li a{
     color: black;
