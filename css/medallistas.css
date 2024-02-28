@@ -1,3 +1,15 @@
+  p{
+    font-size: 16px;
+  }
+
+.deportes_equipo h3{
+  font-size:20px ;
+  text-align: center;
+}
+.deportes_individuales h3{
+  font-size:20px ;
+  text-align: center;
+}
 table {
     border-collapse: collapse;
     width: 100%;
@@ -8,29 +20,39 @@ table {
     border: 1px solid black;
     padding: 8px;
     text-align: left;
-    
-    
   }
 
   td:first-child {
-    width: 90px; 
+    width: 40px;
+    height: 30px; 
 }
-  
-  th {
-    background-color: #ffffff;
-    color: rgb(0, 0, 0);
-  }
 
-  img{
-    width: 300px;
-    height: auto;
+td:first-child img{
+  width: 90px;
+  height: auto;
+}
+
+
+td .equipo{
+  width: 500px;
+  height: 243px;
+}
+.equipo img{
+    width: 400px;
+    height: 220px;
+    margin-left: 40%;
+    
   }
     
-
+  .bandera img{
+  width: 70px;
+  height: 40px;
+  
+  }
 
 
   .gold {
-    background-color: gold;
+    background-color: #f7e76d;
 }
 
 .silver {
@@ -40,3 +62,18 @@ table {
 .bronze {
     background-color: #cd7f32;
 }
+
+.gold img{
+  width: 90px;
+  height: 63px;
+}
+.silver img{
+  width: 90px;
+  height: 63px;
+}
+
+.bronze img{
+  width: 90px;
+  height: 63px;
+}
+
