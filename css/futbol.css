@@ -6,17 +6,13 @@ body {
     background-color: #ffffff;
 }
 
-header {
-    background-color: #333;
-    color: #fff;
-    padding: 20px;
-    text-align: center;
-}
+
 
 h1{
     font-size: 40px;
     text-align: center;
     text-decoration: underline;
+    padding: 10px;
 }
 section {
     padding: 20px;
@@ -26,7 +22,9 @@ section {
     margin: 0 auto;
 }
 h2 {
-    color: rgb(22, 98, 197);}
+    color: rgb(22, 98, 197);
+    padding:10px;
+}
 p {
     line-height: 1.6;
 }
@@ -46,16 +44,16 @@ p {
     .Equipos   ol {
     list-style-type: none;
     padding: 0;
-}
-.Equipos li {
+  }
+  .Equipos li {
     padding: 10px 0;
     border-bottom: 1px solid;
     border-color: #575757;
     font-size: 18px;
     color: #000000;
     counter-increment: item;
-}
-.Equipos li:before {
+  }
+ .Equipos li:before {
     content: counter(item) ".";
     margin-right: 10px;
     font-weight: bold;}
