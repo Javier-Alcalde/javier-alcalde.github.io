@@ -1,0 +1,18 @@
+body {
+    margin: 0;
+    background-color: bisque;
+}
+
+.indice{
+    margin:140px 150px;
+    color: black;
+    font-size: 30px;
+    font-style: italic;
+}
+.indice h1{
+text-align: center;
+}
+.indice ul {
+    list-style-type: decimal;
+    
+}
