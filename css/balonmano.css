@@ -1,0 +1,38 @@
+body {
+    margin: 0;
+    min-height: 100vh;
+    background-color: bisque;
+}
+h3{
+    text-align: center;
+    margin-top: 40px;
+    font-size: 30px;
+}
+.historia h2 {
+    text-align: center;
+    margin-bottom: 30px;
+    color: black;
+}
+
+.historia {
+    margin: 70px 100px 100px 100px !important;
+}
+
+.reglas h2 {
+    text-align: center;
+    margin-bottom: 30px;
+    color: black;
+}
+
+.reglas {
+    margin: 100px 100px 100px 100px;
+}
+.medallas h2 {
+    text-align: center;
+    margin-bottom: 30px;
+    color: black;
+}
+.medallas {
+    margin: 100px 100px 100px 100px;
+    text-align: center;
+}
