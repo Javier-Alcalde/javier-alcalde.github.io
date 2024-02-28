@@ -18,8 +18,8 @@ footer {
 }
 
 .footer-logo img {
-    width: 100px;
-    height: 50px;
+    width: 120px;
+    height: 60px;
     margin-right: 10px;
 }
 
@@ -32,6 +32,7 @@ footer {
 
 .footer-info{
     border-radius: 10px;
+    margin-left: 5%;
     padding: 10px;
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
     font-size: 17px;
@@ -46,6 +47,11 @@ footer {
     width: 40px;
     height: 40px;
     margin-right: 10px;
+    
+}
+
+.footer-social{
+    margin-right: 5px;
 }
 
 .cuenta-regresiva{
