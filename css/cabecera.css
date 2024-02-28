@@ -82,3 +82,41 @@ img {
     margin-top: 7px;
     margin-bottom: 7px;
 }
+
+.mobile_menu i {
+    display: none;
+}
+
+@media only screen and (max-width: 800px) {
+    
+}
+
+@media only screen and (max-width: 500px) {
+    .cabecera {
+        position: fixed;
+        left: 0;
+        top: 0;
+        height: 100%;
+    }
+
+    .menu {
+        display: none;
+    }
+
+    .mobile_menu {
+        display: block;
+    }
+
+    .mobile_menu i {
+        display: block;
+        font-size: 40px;
+        color: rgb(0, 0, 0);
+        padding: 5px;
+    }
+
+    .cuerpo {
+        margin-left: 70px;
+        margin-right: 20px;
+        width: calc(100% - 90px);
+    }
+}
