@@ -13,19 +13,22 @@ h3{
     margin-bottom: 30px;
     color: black;
 }
-
 .historia {
     margin: 70px 100px 100px 100px !important;
 }
 
-.reglas h2 {
-    text-align: center;
-    margin-bottom: 30px;
+.titulo h2 {
+    margin: 0%;
     color: black;
-}
 
+}
+.reglas img{
+    margin-right:10px ;
+    width: 350px;
+}
 .reglas {
-    margin: 100px 100px 100px 100px;
+    width: 100%;
+    display: flex;
 }
 .medallas h2 {
     text-align: center;
