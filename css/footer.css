@@ -2,6 +2,7 @@ body {
     margin: 0;
     padding: 0;
     font-family: Arial, sans-serif;
+    
 }
 
 footer {
@@ -26,6 +27,8 @@ footer {
 .footer-logo h2 {
     font-size: 1.5em;
     margin: 0;
+    color:black ;
+    text-decoration: none;
 }
 
 .footer-info{
@@ -52,9 +55,3 @@ footer {
     margin: 50px;
     justify-content: center;
 }
-
-.img Twitter{
-    height: 10px;
-    width: 10px;
-}
-

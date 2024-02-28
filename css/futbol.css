@@ -6,17 +6,13 @@ body {
     background-color: #ffffff;
 }
 
-header {
-    background-color: #333;
-    color: #fff;
-    padding: 20px;
-    text-align: center;
-}
+
 
 h1{
     font-size: 40px;
     text-align: center;
     text-decoration: underline;
+    padding: 10px;
 }
 section {
     padding: 20px;
@@ -26,7 +22,9 @@ section {
     margin: 0 auto;
 }
 h2 {
-    color: rgb(22, 98, 197);}
+    color: rgb(22, 98, 197);
+    padding:10px;
+}
 p {
     line-height: 1.6;
 }

@@ -1,7 +1,8 @@
 .Titulo{
-    background-color:lightseagreen;
+    background-color:azure;
     margin-top: 60px;
-    width: 500px;
+    width: 700px;
+    text-align: center;
     height: 70px;
     margin-bottom: 10px;
 }
@@ -22,7 +23,7 @@ iframe{
     border-radius: 20px;
 }
 .Sedes{
-    background-color: lightblue;
+    background-color: white;
     height: 650px;
     width: 650px;
     opacity: 70%;
@@ -37,7 +38,6 @@ div h2{
 }
 ul{
     margin-left: 10%;
-}
-li a{
     color: black;
+    text-decoration: solid;
 }
