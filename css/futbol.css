@@ -21,7 +21,7 @@ section {
     max-width: 800px;
     margin: 0 auto;
 }
-h2 {
+.container h2 {
     color: rgb(22, 98, 197);
     padding:10px;
 }
