@@ -1,3 +1,10 @@
+ .medallistas h2{text-align: center;
+    color: black;
+    font-size: 24px;
+  }
+  
+  
+
   p{
     font-size: 16px;
   }
@@ -5,15 +12,19 @@
 .deportes_equipo h3{
   font-size:20px ;
   text-align: center;
+  color: rgb(48, 18, 215);
+  margin-bottom:20px;
 }
 .deportes_individuales h3{
   font-size:20px ;
   text-align: center;
+  margin-bottom:20px;
+
 }
 table {
     border-collapse: collapse;
     width: 100%;
-    
+    margin-bottom: 30px;
 }
   
   th, td {

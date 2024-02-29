@@ -2,7 +2,7 @@ body {
     margin: 0;
 }
 
-p { text-align: justify; font-family: 'Sofia'; }
+p { text-align: justify; }
 .cuerpo { width: 80%; margin: auto; }
 
 .cabecera {
@@ -52,26 +52,26 @@ p { text-align: justify; font-family: 'Sofia'; }
     display: block;
 }
 
-h1 { font-family: "Audiowide"; }
+h1 {
+    font-family: 'Audiowide', 'Times New Roman', Times, serif;
+    font-size: 29px;
+}
 
+.cuerpo p {
+    font-family: 'Sofia', 'Times New Roman', Times, serif;
+}
 
-/* CABECERA MOVIL */
+/*****************/
+/* VERSIÓN MÓVIL */
+/*****************/
 .mobile_menu {
     display: none;
 }
 
-@media (500px >= width) {
-    .mobile_menu {
-        display: block;
-        color: white;
-    }
+@media screen and (max-width: 500px) {
 
-    .mobile_menu .material-icons {
-        font-size: 35px;
-    }
-
-    .menu {
-        display: none;
+    body {
+        background-color: lightcyan;
     }
 
     .cabecera {
@@ -79,17 +79,26 @@ h1 { font-family: "Audiowide"; }
         left: 0;
         top: 0;
         height: 100%;
-        width: 40px;
+    }
+
+    .menu {
+        display: none;
+    }
+
+    .mobile_menu {
+        display: block;
+    }
+
+    .mobile_menu i {
+        font-size: 40px;
+        color: white;
+        padding: 5px;
     }
 
     .cuerpo {
-        margin-left: 60px;
+        margin-left: 70px;
         margin-right: 20px;
+        width: calc(100% - 90px);
     }
 
-    .menu_mostrado {
-        display: block;
-        background-color: #191919;
-        width: 100px;
-    }
 }
