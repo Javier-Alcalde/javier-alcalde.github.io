@@ -1,0 +1,47 @@
+body{
+    
+    background-color: azure;
+}    
+
+
+.agu{
+    text-align: center;
+    margin-top: 40px;
+    font-size: 30px;
+}
+
+
+.que_es{
+    margin-top: 50px;
+    background-color: aliceblue;
+}
+
+.que_es h3{
+    text-align: center;
+    font-size: 20px;
+    color: rgb(0, 0, 0);
+}
+
+.que_es p{
+    margin-left: 50px;
+    margin-right: 50px;
+    line-height: 1;
+
+}
+
+.Historia_agu h3{
+    text-align: center;
+    font-size: 20px;
+    margin-top: 50px;
+}
+
+.Historia_agu p{
+    margin: 0px 50px 0px 50px;
+    line-height: 1;
+}
+
+.reglas_agu h3{
+    text-align: center;
+    font-size: 20px;
+    margin-top: 50px;
+}
