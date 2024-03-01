@@ -3,6 +3,7 @@ body {
     min-height: 100vh;
     background-color: bisque;
 }
+
 .cuerpo {
     margin-top: 65px;
     display: grid;

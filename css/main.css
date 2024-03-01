@@ -2,19 +2,26 @@ body {
     margin: 0;
 }
 
-.cuerpo p {
+.cuerpo_index p {
     text-align: justify;
     font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
 }
 
-.cuerpo {
+.cuerpo_index {
     width: 80%;
     margin: auto;
 }
 
+.cards {
+    display: flex;
+    justify-content: center;
+    margin-top: 20px;
+}
+
 .card {
     padding-inline: 5px;
-    float: left;
+    display: flex;
+    justify-content: center;
     margin-bottom: 20px;
     width: 23%;
 }
@@ -33,7 +40,8 @@ body {
 
 .card_content img {
     width: 100%;
-    opacity: 0.5;
+    opacity: 0.7;
+    margin: 0;
 }
 
 .card_content div {

@@ -28,7 +28,7 @@
 }
 
 
-div a {
+.cabecera div a {
     position: relative;
     font-size: 1.1em;
     font-weight: 500;
