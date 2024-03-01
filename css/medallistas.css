@@ -1,8 +1,4 @@
- 
- 
- 
- 
- .medallistas h2{
+.medallistas h2{
     text-align: center;
     color: black;
     font-size: 24px;
@@ -10,8 +6,9 @@
   
   
 
-  p{
+.medallistas p{
     font-size: 16px;
+    margin-top: 10px;
   }
 
 .deportes_equipo h3{
@@ -35,31 +32,31 @@
   margin-bottom:20px;
 
 }
-table {
+.medallistas table {
     border-collapse: collapse;
     width: 100%;
     margin-bottom: 30px;
     
 }
   
-  th, td {
+.medallistas  th, td {
     border: 1px solid black;
     padding: 8px;
     text-align: left;
   }
 
-  td:first-child {
+.medallistas  td:first-child {
     width: 40px;
     height: 30px; 
 }
 
-td:first-child img{
+.medallistas td:first-child img{
   width: 90px;
   height: auto;
 }
 
 
-td .equipo{
+.equipo td{
   width: 500px;
   height: 243px;
 }
@@ -70,10 +67,14 @@ td .equipo{
     
   }
     
+.bandera{
+  width: 90px;
+}
+
   .bandera img{
-  width: 70px;
-  height: 40px;
-  
+    display: block;
+    width: 100%;
+
   }
 
 
