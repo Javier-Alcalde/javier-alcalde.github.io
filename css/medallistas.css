@@ -20,27 +20,23 @@
 
 
 .deportes_equipo table{
-  background-color: rgb(213, 154, 44);
+  background-color: rgb(231, 199, 138);
+  width: 70%;
+  margin: 0 auto;
 }
 
 
 
 
-.deportes_individuales h3{
-  font-size:20px ;
-  text-align: center;
-  margin-bottom:20px;
 
-}
 .medallistas table {
     border-collapse: collapse;
-    width: 100%;
     margin-bottom: 30px;
     
 }
   
 .medallistas  th, td {
-    border: 1px solid black;
+    border: 4px solid black;
     padding: 8px;
     text-align: left;
   }
@@ -52,9 +48,20 @@
 
 .medallistas td:first-child img{
   width: 90px;
-  height: auto;
+
 }
 
+.deportes_individuales h3{
+  font-size:20px ;
+  text-align: center;
+  margin-bottom:20px;
+
+}
+.deportes_individuales table{
+  width:50%;
+  margin: 0 auto;
+  margin-bottom: 10px;
+}
 
 .equipo td{
   width: 500px;
@@ -63,7 +70,9 @@
 .equipo img{
     width: 400px;
     height: 220px;
-    margin-left: 40%;
+    display: block;
+    margin: 0 auto;
+
     
   }
     
@@ -78,29 +87,40 @@
   }
 
 
-  .gold {
+
+  .oro{
     background-color: #f7e76d;
+    width: 90px;
+    height: 63px;
 }
 
-.silver {
-    background-color: silver;
+.plata {
+    background-color: silver;  
+    width: 90px;
+    height: 63px
 }
 
-.bronze {
+.bronce {
     background-color: #cd7f32;
+    width: 90px;
+    height: 63px
 }
 
-.gold img{
-  width: 90px;
-  height: 63px;
+.oro img{
+  display: block;
+  margin: 0 auto;
+  width: 100%;
+
 }
-.silver img{
-  width: 90px;
-  height: 63px;
+.plata img{
+  display: block;
+  margin: 0 auto;
+  width: 100%;
 }
 
-.bronze img{
-  width: 90px;
-  height: 63px;
+.bronce img{
+  display: block;
+  margin: 0 auto;
+  width: 100%;
 }
 
