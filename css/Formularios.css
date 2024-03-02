@@ -80,3 +80,48 @@ input {
 textarea{
     resize: none;
 }
+
+@media only screen and (min-width: 768px) and (max-width: 1024px) {
+    
+    .cabecera{
+        font-size: 13px;
+    }
+    .form{
+        background-color: bisque;
+        width: 20cm;
+        height: 930px;
+        margin: auto;
+        align-content: center;
+        border: solid rgb(196, 189, 100);
+        margin-top: 20px;
+        border-radius: 20px;
+        position: relative;
+        margin-bottom: 50px;
+    }
+    .foto img{
+        width: 90px;
+        height: 90px;
+        max-width: 100%;
+        max-height: 100%;
+        border-radius: 20px;
+        margin-left: 30px;
+        border: solid black;
+        position: right;
+    }
+    textarea{
+        resize: none;
+    }
+    .form h2 {
+        text-align: center;
+        font-family:'Arial';
+        font-size: 35px;
+        text-decoration: underline;
+        border-radius: 24px;
+        color: black;
+    }
+    
+    footer{
+        margin-top: 20%;
+    }
+    
+}
