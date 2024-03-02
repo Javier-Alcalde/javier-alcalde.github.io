@@ -4,12 +4,11 @@
     font-size: 24px;
   }
   
-  
 
 .medallistas p{
-    font-size: 16px;
-    margin-top: 10px;
-  }
+  font-size: 16px;
+  margin-top: 10px;
+}
 
 .deportes_equipo h3{
   font-size:20px ;
@@ -36,14 +35,14 @@
 }
   
 .medallistas  th, td {
-    border: 4px solid black;
-    padding: 8px;
-    text-align: left;
+  border: 4px solid black;
+  padding: 8px;
+  text-align: left;
   }
 
 .medallistas  td:first-child {
-    width: 40px;
-    height: 30px; 
+  width: 40px;
+  height: 30px; 
 }
 
 .medallistas td:first-child img{
@@ -72,38 +71,35 @@
     height: 220px;
     display: block;
     margin: 0 auto;
-
-    
   }
-    
+
+
 .bandera{
   width: 90px;
 }
 
-  .bandera img{
-    display: block;
-    width: 100%;
-
+.bandera img{
+  display: block;
+  width: 100%;
   }
 
 
-
-  .oro{
-    background-color: #f7e76d;
-    width: 90px;
-    height: 63px;
+.oro{
+  background-color: #f7e76d;
+  width: 90px;
+  height: 63px;
 }
 
 .plata {
-    background-color: silver;  
-    width: 90px;
-    height: 63px
+  background-color: silver;  
+  width: 90px;
+  height: 63px
 }
 
 .bronce {
-    background-color: #cd7f32;
-    width: 90px;
-    height: 63px
+  background-color: #cd7f32;
+  width: 90px;
+  height: 63px
 }
 
 .oro img{
