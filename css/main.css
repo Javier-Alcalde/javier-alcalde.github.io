@@ -41,14 +41,15 @@ body .principal {
     display: flex;
     justify-content: center;
     margin-top: 20px;
+    width: 80%;
+    margin: auto;
 }
 
 .card {
     padding-inline: 5px;
-    display: flex;
-    justify-content: center;
+    float: left;
     margin-bottom: 20px;
-    width: 23%;
+    width: 40%;
 }
 
 .card_content:hover {
