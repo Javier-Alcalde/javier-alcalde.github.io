@@ -1,0 +1,34 @@
+.deportes p{
+    margin-top: 50px;
+    margin-left:50px ;
+    font-size: 16px;
+    font-style: italic;
+    text-align: center;
+    font-weight: bold;
+    margin-bottom: 30px;}
+
+.deportes table{
+    width:70%;
+    margin: 0 auto;
+    margin-top: 10px;
+    border-collapse: collapse;
+    margin-bottom: 10px;
+}
+
+.deportes td:first-child {
+    width: 100px;
+    height: 100px;
+}
+
+.deportes th,td{
+    border: 1px solid black;
+    text-align: center;
+    
+
+}
+
+.deportes img{
+    width: 100%; 
+    height: auto; 
+    display: block; 
+  }
