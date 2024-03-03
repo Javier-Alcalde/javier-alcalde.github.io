@@ -24,6 +24,10 @@ body .principal {
     width: 100%;
 }
 
+.cuerpo_index .imagen-principal img {
+    border-radius: 10px;
+}
+
 .cuerpo_index .texto {
     position: absolute;
     top: 50%;

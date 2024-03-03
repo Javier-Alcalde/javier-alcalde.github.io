@@ -4,13 +4,9 @@ body{
 }
 
 .Titulo{
-    background-color: green;
     height: 70px;
-    text-align: center;
-    width: 25cm;
     margin: auto;
     margin-top: 85px;
-    align-content: center;
     border-radius: 10px;
 }
 
@@ -21,12 +17,12 @@ body{
 }
 
 .form{
-    background-color: bisque;
+    background: linear-gradient(blue, yellow, black, green, red);
     width: 25cm;
     height: 930px;
     margin: auto;
     align-content: center;
-    border: solid rgb(196, 189, 100);
+    border: solid rgb(143, 136, 35);
     margin-top: 20px;
     border-radius: 20px;
     position: relative;
@@ -58,7 +54,7 @@ input {
     font-size: 40px;
     text-decoration: underline;
     border-radius: 24px;
-    color: black;
+    color: rgb(255, 255, 255);
 }
 
 .foto{
