@@ -57,8 +57,8 @@ h3{
 }
 
 .flip-card {
-    width: 110cm;
-    height: 440px;
+    width: 210px;
+    height: 340px;
     perspective: 1000px;
     display: flex;
     margin-left: 10px;
@@ -114,6 +114,6 @@ h3{
     background-color: silver;
     color: black;
 }
-.bronce{
+.Bronce{
     background-color:#bf8970;
 }

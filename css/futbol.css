@@ -1,5 +1,4 @@
-
-.fut{
+.fut {
     font-size: 40px;
     text-align: center;
     text-decoration: underline;
@@ -10,10 +9,12 @@
     max-width: 800px;
     margin: 0 auto;
 }
+
 .futbol h2 {
     color: rgb(22, 98, 197);
-    padding:10px;
+    padding: 10px;
 }
+
 .futbol p {
     line-height: 1.6;
 }
@@ -28,27 +29,29 @@
 .Equipos h3 {
     text-align: center;
     margin-top: 30px;
-    color: rgb(122, 133, 31);}
+    color: rgb(122, 133, 31);
+}
 
-    .Equipos   ol {
+.Equipos ol {
     list-style-type: none;
     padding: 0;
-  }
-  .Equipos li {
+}
+
+.Equipos li {
     padding: 10px 0;
     border-bottom: 1px solid;
     border-color: #575757;
     font-size: 18px;
     color: #000000;
     counter-increment: item;
-  }
- .Equipos li:before {
-    content: counter(item) ".";
-    margin-right: 10px;
-    font-weight: bold;}
-
-.campeones li{
-    margin-bottom: 10px;
 }
 
+.Equipos li:before {
+    content: counter(item) ".";
+    margin-right: 10px;
+    font-weight: bold;
+}
 
+.campeones li {
+    margin-bottom: 10px;
+}
