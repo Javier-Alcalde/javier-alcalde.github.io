@@ -49,15 +49,17 @@ h3{
     display: flex;
 }
 .flip-cardd{
-    width:300px;
+    width:200px;
     height: 190px;
     perspective: 1000px;
     margin: 5px;
     margin-bottom: 50px;
+    margin-left:70px;
+    margin-top: 50px;
 }
 
 .flip-card {
-    width: 210px;
+    width: 160%;
     height: 340px;
     perspective: 1000px;
     display: flex;
