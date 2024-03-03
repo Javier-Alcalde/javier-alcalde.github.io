@@ -1,4 +1,4 @@
-body {
+body .principal {
     margin: 0;
 }
 
@@ -20,7 +20,7 @@ body {
 .cuerpo_index .imagen-principal {
     background-size: cover;
     background-position: top center;
-    height: 30vh;
+    height: 35vh;
     width: 100%;
 }
 
@@ -70,15 +70,15 @@ body {
     text-align: justify;
 }
 
-@media only screen and (max-width: 800px) {
-    .card {
+@media only screen and (max-width: 1024px) and (min-width: 768px) {
+    .cuerpo_index .cards .card {
         width: 47%;
         padding-inline: 5px;
     }
 }
 
-@media only screen and (max-width: 500px) {
-    .card {
+@media only screen and (max-width: 400px) and (min-width: 360px ) {
+    .cuerpo_index .cards .card {
         width: 100%;
     }
 }
