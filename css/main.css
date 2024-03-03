@@ -10,6 +10,27 @@ body {
 .cuerpo_index {
     width: 80%;
     margin: auto;
+    text-align: center;
+}
+
+.cuerpo_index .contenedor {
+    position: relative;
+}
+
+.cuerpo_index .imagen-principal {
+    background-size: cover;
+    background-position: top center;
+    height: 30vh;
+    width: 100%;
+}
+
+.cuerpo_index .texto {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    color: black;
+    font-size: 70px;
 }
 
 .cards {
@@ -47,4 +68,17 @@ body {
 .card_content div {
     padding: 10px 20px;
     text-align: justify;
+}
+
+@media only screen and (max-width: 800px) {
+    .card {
+        width: 47%;
+        padding-inline: 5px;
+    }
+}
+
+@media only screen and (max-width: 500px) {
+    .card {
+        width: 100%;
+    }
 }
